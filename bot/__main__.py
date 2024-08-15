@@ -190,7 +190,7 @@ async def start(client, message):
         start_string = f"This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram.\n<b>Type {help_command} to get a list of available commands</b>"
         await sendMessage(message, start_string, photo="Random")
     else:
-        await sendMessage(message, "You are not a authorized user!", photo="Random")
+        await sendMessage(message, '<b>hey 👋 i\'am Tom bot Use me this \ngroup <a href="https://t.me/FREE_LEECH_ZONE">Free 4GB Leech Zone</a></b>', photo="Random")
     await DbManager().update_pm_users(message.from_user.id)
     return None
 
