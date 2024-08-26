@@ -1,6 +1,7 @@
 aiohttp
 aiofiles
 aioshutil
+pyrofork==2.2.11
 anytree==2.8.0
 apscheduler
 aria2p
@@ -42,4 +43,4 @@ tgcrypto
 uv
 uvloop
 xattr
-yt-dlp
+yt-dlp==2023.10.07
